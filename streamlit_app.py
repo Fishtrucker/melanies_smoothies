@@ -1,7 +1,4 @@
-New-Item -Path "C:\ProgramData\" -Name "New Teams" -ItemType Directory
-Copy-Item -Path "\\pnas01\software\Microsoft\NewTeams\Versions\1.0.2334702\DetectionLogic.txt" -Destination "C:\ProgramData\New Teams\" -Force
-
-.\teamsbootstrapper.exe -p# Import python packages
+# Import python packages
 import streamlit as st
 from snowflake.snowpark.functions import col
 import requests
